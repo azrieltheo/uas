@@ -1,4 +1,4 @@
-
+//percabangan if-else
 Console.WriteLine("Masukan nilai Matematika:");
 int matematika = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Masukan nilai Sistem Oprasi:");
