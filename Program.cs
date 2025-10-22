@@ -90,3 +90,31 @@ switch (hari)
         Console.WriteLine("Hari tidak valid");
         break;
 }
+
+//perulangan do while
+int j = 1;
+do
+{
+    Console.WriteLine("Nilai j: " + j);
+    j++;
+} while (j <= 5);
+
+//perulangann while
+int i = 1;
+while (i <= 5)
+{
+    Console.WriteLine("Nilai i: " + i);
+    i++;
+}
+
+//perulangan for
+int total = 0; 
+
+for (int i = 1; i <= 10; i++) // i mulai dari 1 hingga 10
+  {
+   total += i; // setiap perulangan, tambahkan nilai i ke total
+  }
+
+
+perulangan for
+
