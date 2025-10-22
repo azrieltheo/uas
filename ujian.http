@@ -1,0 +1,6 @@
+@ujian_HostAddress = http://localhost:5212
+
+GET {{ujian_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
