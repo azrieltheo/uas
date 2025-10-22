@@ -5,8 +5,9 @@ Console.WriteLine("Masukan nilai Sistem Oprasi:");
 int so = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Masukan nilai Basis data:");
 int basisdata = Convert.ToInt32(Console.ReadLine());
-//menghitung rata-rata nilai
+
 double rataRata = (matematika + so + basisdata) / 3.0;
+
 string grade;
 if (rataRata >= 90)
 {
@@ -34,8 +35,7 @@ Console.WriteLine("Matematika : " + matematika);
 Console.WriteLine("Sistem Operasi : " + so);
 Console.WriteLine("Basis Data : " + basisdata);
 Console.WriteLine("\nRata-rata : " + rataRata);
-
-// Console.WriteLine("Grade : " + grade);
+ 
 
 int total = 0;
 for (int i = 1; i <= 10; i++)
@@ -50,7 +50,6 @@ double total = Convert.ToDouble(Console.ReadLine());
 
 double diskon = 0;
 
-// Jika belanja lebih dari 100 ribu, dapat diskon 10%
 if (total > 100000)
 {
     diskon = total * 0.10;
@@ -62,7 +61,7 @@ Console.WriteLine("Diskon: Rp" + diskon);
 Console.WriteLine("Total yang harus dibayar: Rp" + totalBayar);
 
 
-// switch case
+//perulangan switch case
 int hari = 5;
 switch (hari)
 {
